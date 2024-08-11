@@ -3,8 +3,12 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: Scaffold(
+    MaterialApp(
+      theme: ThemeData(
+        fontFamily: "WorkSans",
+      ),
+      home: const Scaffold(
+        backgroundColor: Color.fromRGBO(240, 227, 249, 1),
         body: MainScreen(),
       ),
     ),
